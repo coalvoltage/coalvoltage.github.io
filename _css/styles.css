@@ -27,6 +27,7 @@ nav li a {
 
 main {
 	padding: 16px ;
+	height: 100%;
 	background: white;
 }
 
@@ -53,4 +54,12 @@ h2 {
 }
 h3 {
 	border-bottom: grey solid 1px;
+}
+footer {
+	background-color: #333333;
+	height: 100px;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
 }
