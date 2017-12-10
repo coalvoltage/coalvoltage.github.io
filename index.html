@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>Home - Jimmy Im's Website</title> 
 <meta charset="utf-8">
-<title>Home - Jimmy's Personal Site</title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel= "stylesheet" href="_css/styles.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 </head>
 <body>
 <header role="banner">
-    <h1>Jimmy Im's Personal Site</h1>
-    <h2>Home</h2>
-    <nav role="navigation">
-        <ul>
-	        <li><a href="index.html" title="Homepage">Home</a></li>
-	        <li><a href="info.html" title="Info">Info</a></li>
-	        <li><a href="project.html" title="Projects">Projects</a></li>
-	    </ul>
+    <nav role="navigation" class="navbar navbar-default nav-fixed-top">
+    <div class "row">
+	    <div class="container-fluid col-sm-2">
+		</div>
+	    <div class="container-fluid col-sm-8">
+            <ul class="nav nav-pills nav-justified">
+	           <li><a href="index.html" title="Homepage">Home</a></li>
+	           <li><a href="info.html" title="Info">Info</a></li>
+	           <li><a href="project.html" title="Projects">Projects</a></li>
+	        </ul>
+		</div>
+	    <div class="container-fluid col-sm-2">
+		</div>
+	</div>
     </nav>
 </header>
 <main>
-    <header>
-       <h3 class = "HIntro">HI! I'M IM.</h3>
-	   <p class = "HIntro">I'm a University of California, Riverside undergraduate in Electirical Engineering</p>
-	</header>
+<div class="container-fluid frontI">
+    <div class="container-fluid whiteBanner">
+    <div class = "row">
+            <p class = "introH">HI! I'M IM.</p>
+    </div>
+	<div class = "row">
+	        <p class = "intro">I make stuff</p>
+	</div>
+	</div>
+</div>
 </main>
-<footer role = "contentinfo">
+<footer class="container-fluid">
+    <div class="row">
+    <p>Contacts</p>
+	<p><span class="glyphicon glyphicon-envelope"></span> jimmyim@gmx.com</p>
+    </div>	
 </footer>
 </body>
 </html>

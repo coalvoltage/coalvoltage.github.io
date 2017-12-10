@@ -1,53 +1,84 @@
 @import url( https://fonts.googleapis.com/css?family=Montserrat:300|Permanent+Marker ) ;
-html {
-    margin: 0;
-	padding: 0;
-	background-color: #FFE8FE;
+html, body {
+	background-color: #6EC6E4;
 	font-family: 'Montserrat', sans-serif;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
+	height: 100%;
 }
 
-nav li {
-    float: left;
+
+header {
+	top: 0px;
+	padding: 0px;
 }
 
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
+p{
+    margin-bottom: 0px;
 }
 
 main {
-	padding: 16px ;
-	height: 100%;
-	background: white;
+	background-color: #E2E2E2;
+	top: 0px;
+}
+nav.navbar {
+	min-height: 10vh;
+	padding: 20px;
+    border: 0px;
+    border-radius: 0px;
+	background-color: #333333;
+    margin-bottom: 0px;
+    font-size: 16px;
+    letter-spacing: 5px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 
-nav li a:hover {
-    background-color: #111111;
-}
 img.thumbnail {
 	width: 500px;
 	height:auto;
 }
-h3.HIntro {
-	font-size: 64px;
+.greyS {
+	background-color: grey;
+	height: 128px;
+}
+.introH {
+	font-size: 128px;
+	padding: 0px 32px;
 	font-family: 'Permanent Marker', sans-serif;
 	text-align: center;
 }
-p.HIntro {
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+	color: white;
+    text-decoration: none;
+    background-color: #333333;
+}
+
+.articleP {
+	background-color: white;
+	padding: 32px;
+}
+
+p.intro {
+	padding: 16x;
+	font-size:32px;
 	text-align: center;
 }
+
+.fill {
+    min-height: 80vh;
+}
+
+
+.frontI {
+	background-image: url("../blurryGCube.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20vh 0px;
+}
 h1 {
-	text-align: center;
+	display:none;
 }
 h2 {
 	display: none;
@@ -55,11 +86,16 @@ h2 {
 h3 {
 	border-bottom: grey solid 1px;
 }
-footer {
+footer.container-fluid {
+	min-height: 10vh;
+	padding: 18px 32px;
 	background-color: #333333;
-	height: 100px;
-	position: absolute;
 	width: 100%;
-	left: 0px;
-	bottom: 0px;
+}
+.whiteBanner {
+	background-color: rgba(255,255,255,0.5);
+	padding: 32px;
+}
+footer p {
+	color: white;
 }
