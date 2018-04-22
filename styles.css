@@ -16,7 +16,8 @@ p{
 }
 
 main {
-	background-color: #E2E2E2;
+	background: url("bg_blue_fix.png");
+  background-repeat: repeat;
 	top: 0px;
 }
 nav.navbar {
@@ -33,8 +34,8 @@ nav.navbar {
 }
 
 img.thumbnail {
-	width: 500px;
-	height:auto;
+	width: auto;
+  height:70vh;
 }
 .greyS {
 	background-color: grey;
@@ -42,7 +43,7 @@ img.thumbnail {
 }
 .introH {
 	font-size: 128px;
-	padding: 0px 32px;
+	padding: 0vh 5vh;
 	font-family: 'Permanent Marker', sans-serif;
 	text-align: center;
 }
@@ -66,12 +67,12 @@ p.intro {
 }
 
 .fill {
-    min-height: 80vh;
+    min-height: 77.6vh;
 }
 
 
 .frontI {
-	background-image: url("../blurryGCube.png");
+	background-image: url("blurryGCube.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -88,13 +89,14 @@ h3 {
 }
 footer.container-fluid {
 	min-height: 10vh;
-	padding: 18px 32px;
+	padding: 3vh 2vw;
 	background-color: #333333;
 	width: 100%;
 }
 .whiteBanner {
 	background-color: rgba(255,255,255,0.5);
-	padding: 32px;
+	min-height: 37.6vh;
+  padding: 3.5vh;
 }
 footer p {
 	color: white;
