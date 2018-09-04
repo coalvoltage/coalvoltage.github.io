@@ -42,8 +42,16 @@ img.thumbnail {
 	height: 128px;
 }
 .introH {
-	font-size: 128px;
+  font-size: 8vmax;
 	padding: 0vh 5vh;
+  color: #333333;
+	font-family: 'Permanent Marker', sans-serif;
+	text-align: center;
+}
+.introHW {
+  font-size: 8vmax;
+	padding: 0vh 5vh;
+  color: #F2F2F2;
 	font-family: 'Permanent Marker', sans-serif;
 	text-align: center;
 }
@@ -57,12 +65,20 @@ img.thumbnail {
 
 .articleP {
 	background-color: white;
-	padding: 32px;
+	padding: 4em;
 }
 
 p.intro {
-	padding: 16x;
-	font-size:32px;
+	padding: 1em;
+	font-size:1.75em;
+  color: #333333;
+	text-align: center;
+}
+
+p.introW {
+	padding: 1em;
+	font-size:1.75em;
+  color: #F2F2F2;
 	text-align: center;
 }
 
@@ -71,13 +87,30 @@ p.intro {
 }
 
 
-.frontI {
+.frontI1 {
 	background-image: url("blurryGCube.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 20vh 0px;
+	padding: 40vh 0px;
 }
+
+.frontI2 {
+	background-image: url("micromouse.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 40vh 0px;
+}
+
+.frontI3 {
+	background-image: url("textAdv.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 40vh 0px;
+}
+
 h1 {
 	display:none;
 }
@@ -93,9 +126,21 @@ footer.container-fluid {
 	background-color: #333333;
 	width: 100%;
 }
+
+.footerIcon {
+  margin-left:1vw;
+  margin-right: auto;
+  height: 2.9em;
+  width: auto;
+}
+
+.imageIcon {
+  display: block;
+
+}
 .whiteBanner {
-	background-color: rgba(255,255,255,0.5);
-	min-height: 37.6vh;
+  position: relative;
+  display: inline;
   padding: 3.5vh;
 }
 footer p {
