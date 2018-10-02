@@ -118,6 +118,7 @@ h2 {
 	display: none;
 }
 h3 {
+  margin:1em 0em;
 	border-bottom: grey solid 1px;
 }
 footer.container-fluid {
