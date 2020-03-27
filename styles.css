@@ -90,6 +90,8 @@ p.introW {
 	font-size:1.75em;
   color: #F2F2F2;
 	text-align: center;
+	text-shadow: 0 0 10px black;
+	
 }
 
 .fill {
@@ -110,7 +112,7 @@ p.introW {
 }
 
 .frontI2 {
-	background-image: url("micromouse.png");
+	background-image: url("micromouseIntro.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
